@@ -1,0 +1,46 @@
+
+.container {
+  width: 50%;
+  margin: auto;
+  text-align: center;
+}
+
+.conversation-window {
+  border: 1px solid #ddd;
+  padding: 10px;
+  height: 300px;
+  overflow-y: scroll;
+  margin-bottom: 15px;
+}
+
+.user-message {
+  text-align: left;
+  background-color: #e6f7ff;
+  margin: 5px;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.bot-message {
+  text-align: right;
+  background-color: #ffebcc;
+  margin: 5px;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.input-area {
+  display: flex;
+  justify-content: center;
+}
+
+input[type="text"] {
+  width: 70%;
+  padding: 8px;
+  margin-right: 5px;
+}
+
+button {
+  padding: 8px 12px;
+  margin-left: 5px;
+}
